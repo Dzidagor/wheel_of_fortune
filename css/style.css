@@ -1,0 +1,48 @@
+.hero {
+  background: no-repeat right top url("../img/hero/ellipse-1.png");
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 23px;
+  margin-bottom: 60px;
+}
+.header__logo-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  margin-right: 14px;
+}
+.header__title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120.02%;
+  color: #202020;
+}
+.header__button {
+  display: flex;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-decoration: none;
+  outline: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+  gap: 10px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
