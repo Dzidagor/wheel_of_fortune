@@ -1,42 +1,81 @@
 .hero
   background: no-repeat right top url('../img/hero/ellipse-1.png')
+  height: 1000px
   // .hero__block
   &__block
-
   // .hero__content-block
   &__content-block
-
+    display: flex
+    justify-content: space-between
+    align-items: center
+    font-family: 'Inter', sans-serif
   // .hero__text-block
   &__text-block
-
+    max-width: 520px
+    position: relative
   // .hero__title
   &__title
+    font-weight: 600
+    font-size: 24px
+    line-height: 29px
+    margin-bottom: 32px
     // .hero__title_pink
     &_pink
-
+      color: $pink
   // .hero__subtitle
   &__subtitle
-
+    font-weight: 600
+    font-size: 40px
+    line-height: 124%
+    margin-bottom: 40px
   // .hero__text
   &__text
-
+    font-family: 'Inter'
+    font-style: normal
+    font-weight: 400
+    font-size: 20px
+    line-height: 130.5%
+    color: $grey
+    margin-bottom: 40px
   // .hero__button
   &__button
-
+    padding-top: 16px
+    padding-bottom: 16px
+    width: 288px
   // .hero__arrow-text
   &__arrow-text
+    font-style: italic
+    font-weight: 400
+    font-size: 24px
+    line-height: 29px
+    color: $grey
+    position: absolute
+    bottom: -110px
+    right: 100px
 
   // .hero__arrow
   &__arrow
-
+    position: absolute
+    bottom: -195px
+    right: -10px
   // .hero__img-block
   &__img-block
-
+    position: relative
+    width: 715px
+    height: 675px
   // .hero__img-1
   &__img-1
-
+    position: absolute
+    border-radius: 10px
+    top: 0
+    right: 0
   // .hero__img-2
   &__img-2
+    position: absolute
+    border-radius: 10px
+    bottom: 0
+    left: 0
+    z-index: 0
 
 
 .header
@@ -81,7 +120,6 @@
     border-radius: 10px
     color: $light
 
-.button
 
 
 

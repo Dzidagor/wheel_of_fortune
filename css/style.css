@@ -1,6 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-decoration: none;
+  outline: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #202020;
+  padding: 12px 40px;
+  gap: 10px;
+  background-color: #FDF18D;
+  border-radius: 10px;
+}
+
 .hero {
   background: no-repeat right top url("../img/hero/ellipse-1.png");
+  height: 1000px;
 }
+.hero__content-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.hero__text-block {
+  max-width: 520px;
+  position: relative;
+}
+.hero__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 32px;
+}
+.hero__title_pink {
+  color: #FC8AD0;
+}
+.hero__subtitle {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 124%;
+  margin-bottom: 40px;
+}
+.hero__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130.5%;
+  color: #5F5F5F;
+  margin-bottom: 40px;
+}
+.hero__button {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 288px;
+}
+.hero__arrow-text {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #5F5F5F;
+  position: absolute;
+  bottom: -110px;
+  right: 100px;
+}
+.hero__arrow {
+  position: absolute;
+  bottom: -195px;
+  right: -10px;
+}
+.hero__img-block {
+  position: relative;
+  width: 715px;
+  height: 675px;
+}
+.hero__img-1 {
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  right: 0;
+}
+.hero__img-2 {
+  position: absolute;
+  border-radius: 10px;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
