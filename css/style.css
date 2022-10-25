@@ -33,6 +33,13 @@ html, body {
   border-radius: 10px;
 }
 
+@media (max-width: 1199.98px) {
+  .button {
+    padding: 12px 32px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
 .hero {
   background: no-repeat right top url("../img/hero/ellipse-1.png");
   height: 1000px;
@@ -154,4 +161,76 @@ html, body {
   border: 2px solid #fff;
   border-radius: 10px;
   color: #fff;
+}
+
+@media (max-width: 1199.98px) {
+  .hero {
+    background: no-repeat right top url("../img/hero/tablet/bg.png");
+    height: 510px;
+  }
+  .hero__content-block {
+    position: relative;
+  }
+  .hero__text-block {
+    max-width: 300px;
+    position: static;
+  }
+  .hero__title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .hero__subtitle {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  .hero__text {
+    display: none;
+  }
+  .hero__button {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 251px;
+  }
+  .hero__arrow-text {
+    font-size: 20px;
+    line-height: 24px;
+    bottom: 0px;
+    left: 160px;
+  }
+  .hero__arrow {
+    width: 120px;
+    height: 66px;
+    position: absolute;
+    bottom: -70px;
+    left: 240px;
+  }
+  .hero__img-block {
+    width: 502px;
+    height: 310px;
+  }
+  .hero__img-1 {
+    width: 282px;
+    height: 188px;
+  }
+  .hero__img-2 {
+    width: 259px;
+    height: 179px;
+  }
+  .header {
+    padding-top: 26px;
+    margin-bottom: 12px;
+  }
+  .header__logo {
+    width: 40px;
+    height: 48px;
+    margin-right: 12px;
+  }
+  .header__title {
+    font-size: 16px;
+  }
+  .header__button {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 16px 32px;
+  }
 }/*# sourceMappingURL=style.css.map */
