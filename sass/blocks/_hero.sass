@@ -1,33 +1,37 @@
 .hero
   background: no-repeat right top url('../img/hero/ellipse-1.png')
   height: 1000px
-  // .hero__block
-  &__block
+
   // .hero__content-block
   &__content-block
     display: flex
     justify-content: space-between
     align-items: center
     font-family: 'Inter', sans-serif
+
   // .hero__text-block
   &__text-block
     max-width: 520px
     position: relative
+
   // .hero__title
   &__title
     font-weight: 600
     font-size: 24px
     line-height: 29px
     margin-bottom: 32px
+
     // .hero__title_pink
     &_pink
       color: $pink
+  
   // .hero__subtitle
   &__subtitle
     font-weight: 600
     font-size: 40px
     line-height: 124%
     margin-bottom: 40px
+  
   // .hero__text
   &__text
     font-family: 'Inter'
@@ -37,11 +41,13 @@
     line-height: 130.5%
     color: $grey
     margin-bottom: 40px
+
   // .hero__button
   &__button
     padding-top: 16px
     padding-bottom: 16px
     width: 288px
+
   // .hero__arrow-text
   &__arrow-text
     font-style: italic
@@ -58,17 +64,20 @@
     position: absolute
     bottom: -195px
     right: -10px
+
   // .hero__img-block
   &__img-block
     position: relative
     width: 715px
     height: 675px
+
   // .hero__img-1
   &__img-1
     position: absolute
     border-radius: 10px
     top: 0
     right: 0
+
   // .hero__img-2
   &__img-2
     position: absolute
@@ -84,14 +93,17 @@
   align-items: center
   padding-top: 23px
   margin-bottom: 60px
+
   // .header__logo-block
   &__logo-block
     display: flex
     justify-content: space-between
     align-items: center
+
   // .header__logo
   &__logo
     margin-right: 14px
+
   // .header__title
   &__title
     font-family: 'Inter', sans-serif
@@ -100,6 +112,7 @@
     font-size: 18px
     line-height: 120.02%
     color: $black
+
   // .header__button
   &__button
     display: flex
@@ -204,4 +217,69 @@
       font-size: 18px
       line-height: 22px
       padding: 16px 32px
+
+@media (max-width: 767.98px)
+  .hero
+    background: no-repeat bottom  url('../img/hero/phone/bg.png')
+    height: 670px
+
+    // .hero__content-block
+    &__content-block
+      flex-direction: column
+
+    // .hero__text-block
+    &__text-block
+      max-width: none
+      margin-bottom: 53px
+    
+    // .hero__subtitle
+    &__subtitle
+      margin-bottom: 24px
+    
+    // .hero__text
+    &__text
+
+    // .hero__button
+    &__button
+      padding-top: 16px
+      padding-bottom: 16px
+
+    // .hero__arrow-text
+    &__arrow-text
+      display: none
+
+    // .hero__arrow
+    &__arrow
+      display: none
+
+    // .hero__img-block
+    &__img-block
+      width: 320px
+      height: 258px
+
+    // .hero__img-1
+    &__img-1
+      width: 244px
+      height: 163px
+
+    // .hero__img-2
+    &__img-2
+      width: 220px
+      height: 152px
+
+
+  .header
+    padding-top: 19px
+    margin-bottom: 34px
+
+    // .header__logo
+    &__logo
+      width: 32px
+      height: 38px
+      
+    // .header__button
+    &__button
+      margin-left: 60px
+      border: 2px solid $pink
+      color: $pink
 

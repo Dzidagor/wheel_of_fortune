@@ -40,6 +40,11 @@ html, body {
     line-height: 22px;
   }
 }
+@media (max-width: 767.98px) {
+  .button {
+    padding: 16px 32px;
+  }
+}
 .hero {
   background: no-repeat right top url("../img/hero/ellipse-1.png");
   height: 1000px;
@@ -232,5 +237,56 @@ html, body {
     font-size: 18px;
     line-height: 22px;
     padding: 16px 32px;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero {
+    background: no-repeat bottom url("../img/hero/phone/bg.png");
+    height: 670px;
+  }
+  .hero__content-block {
+    flex-direction: column;
+  }
+  .hero__text-block {
+    max-width: none;
+    margin-bottom: 53px;
+  }
+  .hero__subtitle {
+    margin-bottom: 24px;
+  }
+  .hero__button {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .hero__arrow-text {
+    display: none;
+  }
+  .hero__arrow {
+    display: none;
+  }
+  .hero__img-block {
+    width: 320px;
+    height: 258px;
+  }
+  .hero__img-1 {
+    width: 244px;
+    height: 163px;
+  }
+  .hero__img-2 {
+    width: 220px;
+    height: 152px;
+  }
+  .header {
+    padding-top: 19px;
+    margin-bottom: 34px;
+  }
+  .header__logo {
+    width: 32px;
+    height: 38px;
+  }
+  .header__button {
+    margin-left: 60px;
+    border: 2px solid #FC8AD0;
+    color: #FC8AD0;
   }
 }/*# sourceMappingURL=style.css.map */
