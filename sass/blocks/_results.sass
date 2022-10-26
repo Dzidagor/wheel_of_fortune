@@ -1,7 +1,7 @@
 .results
   // .results__block
   &__block
-
+    margin-bottom: 100px
   // .results__title
   &__title
     font-family: 'Inter', sans-serif
@@ -77,3 +77,42 @@
       font-size: 16px
 
 
+
+@media (max-width: 767.98px)
+  .results
+    // .results__block
+    &__block
+      margin-top: 30px
+      
+    // .results__title
+    &__title
+      font-size: 32px
+      line-height: 39px
+      margin-bottom: 20px
+    
+    // .results__content-block
+    &__content-block
+      display: flex
+      justify-content: space-around
+      flex-wrap: wrap
+
+    // .results__item
+    &__item
+      width: 150px
+      height: 216px
+      padding: 12px 3px 12px 3px
+      margin-bottom: 20px
+      
+
+  .result-item
+    // .result-item__icon
+    &__icon
+      width: 121px
+      height: 113px
+      img
+        width: 121px
+        height: 113px
+
+    // .result-item__title
+    &__title
+      font-size: 16px
