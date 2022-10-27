@@ -2,6 +2,8 @@
   background: no-repeat left center url('../img/adv-1/bg.png')
   font-family: 'Inter', sans-serif
   padding-top: 160px
+  height: 640px
+
   // .adv-1__block
   &__block
     display: flex
@@ -14,12 +16,31 @@
 
   // .adv-1__content-block
   &__content-block
-
+    max-width: 610px
+    color: $black
+    font-family: "Inter", sans-serif
   // .adv-1__title
+  
   &__title
+    font-weight: 700
+    font-size: 56px
+    line-height: 126%
+    letter-spacing: 0.02em
+
+  // .adv-1__line
+  &__line
+    margin-bottom: 24px
+    color: $pink
+    border: 2px solid $pink
+    opacity: 1
 
   // .adv-1__subtitle
   &__subtitle
+    font-weight: 400
+    font-size: 16px
+    line-height: 135.5%
+    letter-spacing: 0.02em
+
 
 .form-block
   // .form-block__title
@@ -39,13 +60,54 @@
     line-height: 126%
     letter-spacing: 0.02em
     margin-bottom: 20px
+
+  // .form-block__tel-block
+  &__tel-block
+    display: flex
+    justify-content: flex-start
+    align-items: center
+    height: 44px
+    padding: 14px 20px
+    border: 2px solid $main-color
+    border-radius: 10px
+    margin-bottom: 5px
+
+  // .form-block__tel-icon
+  &__tel-icon
+    margin-right: 16px
+  
   // .form-block__tel
   &__tel
+    background-color: transparent
+    border: none
+    outline: none
+    font-family: 'Inter'
+    font-weight: 400
+    font-size: 16px
+    line-height: 126%
+    letter-spacing: 0.02em
+    color: $light
+  
+  &__tel::placeholder
+    color: rgba(255, 255, 255, 0.7)
+    
 
   // .form-block__checkbox
   &__checkbox
 
+  // .form-block__checkbox-label
+  &__checkbox-label
+    font-family: 'Inter'
+    font-weight: 400
+    font-size: 12px
+    line-height: 126%
+    letter-spacing: 0.02em
+    
+
+
   // .form-block__acept-button
-  &__acept-button
+  &__accept-button
+    margin-top: 32px
+    width: 161px
 
 

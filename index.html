@@ -10,7 +10,7 @@
   <!-- Font 'Inter' -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <!-- Normalize -->
   <link rel="stylesheet" href="css/normalize.css">
   <!-- Styles -->
@@ -79,13 +79,17 @@
         <span class="form-block__title">Крутите колесо!</span>
         <span class="form-block__subtitle">Участвуйте в розыгрыше, после победы сообщите нашему менеджеру секретный код и получите приз!
         </span>
-        <input type="text" class="form-block__tel">
-        <input type="checkbox" class="form-block__checkbox" value="Я прочитал и согласен с правилами сайта">
-        <a href="#" class="button form-block__acept-button">Крутить</a>
+        <div class="form-block__tel-block">
+          <img src="img/icons/phone-icon.svg" alt="" class="form-block__tel-icon">
+          <input type="text" class="form-block__tel" placeholder="Введите номер телефона">
+        </div>
+        <input id="checkbox" type="checkbox" class="form-block__checkbox">
+        <label for="checkbox" class="form-block__checkbox-label">Я прочитал и согласен с правилами сайта</label>
+        <a href="#" class="button form-block__accept-button">Крутить</a>
       </form>
       <div class="adv-1__content-block">
         <h2 class="adv-1__title">Настраиваемый способ связи</h2>
-        <hr class="">
+        <hr class="adv-1__line">
         <span class="adv-1__subtitle">Попробуйте открыть виджет на нашем сайте. Вы увидите иконку и плейсхолдер для телефона. Но что, если вы хотите собирать адреса электронной почты?<br>Нет проблем — когда пользователь начнет вводить свой email адрес, иконка «телефон» автоматически сменится на «конверт». По желанию, вы также можете отключить один из способов связи.</span>
       </div>
     </div>

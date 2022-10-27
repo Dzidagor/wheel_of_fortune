@@ -392,6 +392,7 @@ html, body {
   background: no-repeat left center url("../img/adv-1/bg.png");
   font-family: "Inter", sans-serif;
   padding-top: 160px;
+  height: 640px;
 }
 .adv-1__block {
   display: flex;
@@ -401,6 +402,30 @@ html, body {
   color: #fff;
   max-width: 400px;
 }
+.adv-1__content-block {
+  max-width: 610px;
+  color: #202020;
+  font-family: "Inter", sans-serif;
+}
+.adv-1__title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+}
+.adv-1__line {
+  margin-bottom: 24px;
+  color: #FC8AD0;
+  border: 2px solid #FC8AD0;
+  opacity: 1;
+}
+.adv-1__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135.5%;
+  letter-spacing: 0.02em;
+}
+
 .form-block__title {
   display: block;
   font-weight: 700;
@@ -416,4 +441,48 @@ html, body {
   line-height: 126%;
   letter-spacing: 0.02em;
   margin-bottom: 20px;
+}
+.form-block__tel-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 44px;
+  padding: 14px 20px;
+  border: 2px solid #FDF18D;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.form-block__tel-icon {
+  margin-right: 16px;
+}
+.form-block__tel {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.form-block__tel::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.form-block__tel:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.form-block__tel::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.form-block__checkbox-label {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+}
+.form-block__accept-button {
+  margin-top: 32px;
+  width: 161px;
 }/*# sourceMappingURL=style.css.map */
