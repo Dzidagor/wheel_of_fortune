@@ -639,9 +639,6 @@ html, body {
   .adv-2__title br {
     display: none;
   }
-  .adv-2__text {
-    margin-bottom: 0;
-  }
   .adv-2__img-laptop {
     width: 524px;
     height: 280.4px;
@@ -661,5 +658,48 @@ html, body {
   }
   .adv-2__star-text {
     font-weight: 400;
+  }
+}
+@media (max-width: 767.98px) {
+  .adv-2__block {
+    padding-top: 88px;
+  }
+  .adv-2__icons {
+    max-width: 168px;
+  }
+  .adv-2__icon {
+    width: 40px;
+    height: 40px;
+  }
+  .adv-2__subtitle {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+  .adv-2__title {
+    font-size: 24px;
+  }
+  .adv-2__text {
+    max-width: 320px;
+  }
+  .adv-2__img-laptop {
+    width: 313.95px;
+    height: 168px;
+  }
+  .adv-2__img-phone {
+    width: 53.87px;
+    height: 109px;
+    right: 8px;
+    bottom: -19px;
+  }
+  .adv-2__star-block {
+    left: 2px;
+    bottom: -89px;
+    width: 165px;
+    height: 160px;
+  }
+  .adv-2__star-text {
+    font-size: 14px;
+    line-height: 17px;
+    max-width: 130px;
   }
 }/*# sourceMappingURL=style.css.map */
