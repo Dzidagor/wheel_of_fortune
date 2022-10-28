@@ -780,4 +780,10 @@ html, body {
 }
 .coupon-block__accept-button {
   margin-top: 24px;
+}
+
+@media (max-width: 1199.98px) {
+  .adv-3 {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
