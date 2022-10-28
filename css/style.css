@@ -485,4 +485,74 @@ html, body {
 .form-block__accept-button {
   margin-top: 32px;
   width: 161px;
+}
+
+@media (max-width: 1199.98px) {
+  .adv-1 {
+    background: no-repeat center bottom url("../img/adv-1/tablet/bg.png");
+    padding-top: 0;
+    height: 660px;
+  }
+  .adv-1__block {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .adv-1__content-block {
+    max-width: none;
+    margin-bottom: 100px;
+  }
+  .adv-1__title {
+    font-size: 40px;
+  }
+  .adv-1__line {
+    margin-top: 5px;
+    width: 644px;
+  }
+  .form-block__title {
+    display: block;
+  }
+  .form-block__tel-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 44px;
+    padding: 14px 20px;
+    border: 2px solid #FDF18D;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  .form-block__tel-icon {
+    margin-right: 16px;
+  }
+  .form-block__tel {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 126%;
+    letter-spacing: 0.02em;
+    color: #fff;
+  }
+  .form-block__tel::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .form-block__tel:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .form-block__tel::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .form-block__checkbox-label {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 126%;
+    letter-spacing: 0.02em;
+  }
+  .form-block__accept-button {
+    margin-top: 32px;
+    width: 161px;
+  }
 }/*# sourceMappingURL=style.css.map */
