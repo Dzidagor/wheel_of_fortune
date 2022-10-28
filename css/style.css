@@ -511,4 +511,38 @@ html, body {
   .form-block__accept-button {
     width: 145px;
   }
+}
+@media (max-width: 767.98px) {
+  .adv-1 {
+    background: no-repeat center bottom url("../img/adv-1/mobile/bg.png");
+    height: 750px;
+  }
+  .adv-1__form {
+    max-width: none;
+  }
+  .adv-1__content-block {
+    margin-bottom: 74px;
+  }
+  .adv-1__title {
+    font-size: 28px;
+  }
+  .adv-1__line {
+    margin-top: 8px;
+    margin-bottom: 16px;
+    width: 320px;
+  }
+  .form-block__title {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  .form-block__subtitle {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .form-block__tel-block {
+    margin-bottom: 8px;
+  }
+  .form-block__accept-button {
+    margin-top: 24px;
+  }
 }/*# sourceMappingURL=style.css.map */
